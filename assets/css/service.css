@@ -1,0 +1,105 @@
+.top-header{
+    background-color: #0ac4f3!important;
+}
+        
+.card-subtitle.h3{
+    color: var(--bit-primary-color);
+}
+
+.custom-shape-divider-bottom-1658151446 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1658151446 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1658151446 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1658150298 {
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1658150298 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1658150298 .shape-fill {
+    fill: rgb(33, 37, 41);
+}
+
+[id*='ancre'] .card-img{
+    position: relative;
+    z-index: 1;
+}
+
+[id*='ancre']{
+  margin: 3rem auto!important;
+  transition: all 1s ease-out;
+  opacity: 0;
+}
+
+[id*='ancre'] .card-img{
+  position: relative;
+  z-index: 1;
+}
+
+[id*='ancre'] .card-img{
+  position: relative;
+  z-index: 1;
+}
+        
+@media (max-width: 576px){
+    [id*='ancre']{
+      margin: 1rem auto;
+    }
+}
+        
+@media (min-width: 576px){
+    [id*='ancre']{
+      margin: 1rem auto;
+    }
+}
+
+@media (min-width: 768px){
+    [id*='ancre']{
+      margin: 2rem auto;
+    }
+
+    [id*='ancre'] .figure{
+     width: 46%;
+    }
+
+    [id*='ancre'] .figure+div{
+        width: 54%;
+    }
+}
+
+@media (min-width: 992px){
+    [id*='ancre']{
+      margin: 3rem auto!important;
+    }
+
+    #ask-for-estimate{
+        margin-top: 5rem;
+    }  
+}
